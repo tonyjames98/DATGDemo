@@ -37,7 +37,7 @@ public class Vogella extends WebBaseTest {
 
         String title = DriverManager.getDriver().getTitle();
         DriverManager.quitDriver();
-        Assert.assertTrue(title.equalsIgnoreCase("Unit test site"));
+        Assert.assertTrue(title.equalsIgnoreCase("Eclipse, Android and Java training and support"));
         
     }
 
