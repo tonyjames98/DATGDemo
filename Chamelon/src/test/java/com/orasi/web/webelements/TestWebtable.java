@@ -19,7 +19,7 @@ import ru.yandex.qatools.allure.annotations.Stories;
 import ru.yandex.qatools.allure.annotations.Title;
 
 public class TestWebtable extends WebBaseTest {
-    OrasiDriver driver = null;
+	OrasiDriver driver = null;
 
     private String xpath = "//div[6]/table";
 

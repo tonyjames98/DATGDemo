@@ -18,7 +18,7 @@ import ru.yandex.qatools.allure.annotations.Stories;
 import ru.yandex.qatools.allure.annotations.Title;
 
 public class TestButton extends WebBaseTest {
-    private OrasiDriver driver;
+	private OrasiDriver driver;
 
     @BeforeClass(groups = { "regression", "interfaces", "button", "dev" })
     public void setup() {
@@ -43,7 +43,7 @@ public class TestButton extends WebBaseTest {
     @Title("click")
     @Test(groups = { "regression", "interfaces", "button" })
     public void click() {
-        driver = testStart("TestButton");
+    	driver = testStart("TestButton");
         Button button = driver.findButton(By.id("click"));
         button.click();
         Assert.assertTrue(driver.findElement(By.id("testClick")).getText().equals("Successful"));

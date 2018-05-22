@@ -206,7 +206,7 @@
 					<testFailureIgnore>true</testFailureIgnore>
 					
 					<suiteXmlFiles>
-						<suiteXmlFile>${testNGSourceDirectory}/DATG/Vogella/Selenium_Vogella.xml</suiteXmlFile> 
+						<suiteXmlFile>${testNGSourceDirectory}/regression.xml</suiteXmlFile> 
 					</suiteXmlFiles>
 					<systemPropertyVariables>						
 						
