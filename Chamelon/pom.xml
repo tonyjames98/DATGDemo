@@ -198,7 +198,7 @@
 						-javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectjVersion}/aspectjweaver-${aspectjVersion}.jar"
 					</argLine>
 					<suiteXmlFiles>
-						<suiteXmlFile>${testNGSourceDirectory}/regression.xml</suiteXmlFile> 
+						<suiteXmlFile>${testNGSourceDirectory}/DATG/Vogella/Selenium_Vogella.xml</suiteXmlFile> 
 					</suiteXmlFiles>
 					<systemPropertyVariables>						
 						
