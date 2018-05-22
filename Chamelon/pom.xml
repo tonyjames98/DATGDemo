@@ -194,9 +194,7 @@
 				<version>${mavenSurefilePluginVersion}</version>
 				<configuration>
 					<testFailureIgnore>true</testFailureIgnore>
-					<argLine>
-						-javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectjVersion}/aspectjweaver-${aspectjVersion}.jar"
-					</argLine>
+					
 					<suiteXmlFiles>
 						<suiteXmlFile>${testNGSourceDirectory}/DATG/Vogella/Selenium_Vogella.xml</suiteXmlFile> 
 					</suiteXmlFiles>
@@ -206,13 +204,7 @@
 						
 					</systemPropertyVariables>
 				</configuration>
-				<dependencies>
-					<dependency>
-						<groupId>org.aspectj</groupId>
-						<artifactId>aspectjweaver</artifactId>
-						<version>${aspectjVersion}</version>
-					</dependency>
-				</dependencies>
+			
 			</plugin>
 			<plugin>
 				<groupId>org.eclipse.jetty</groupId>
